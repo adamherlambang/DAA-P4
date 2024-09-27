@@ -1,0 +1,10 @@
+def LinearSearch(list, x):
+    for i in range(len(list)):
+        if list[i] == x:
+            return i
+    return -1
+
+list = ['y', 'u', 'i', 'w', 'o', 'a', 'u', 'j', 'p'] 
+x = 'a'
+hasil = LinearSearch(list, x)
+print(hasil)  # Output: 5 (index of 'a' in the list) 
